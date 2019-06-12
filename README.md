@@ -99,7 +99,7 @@ In this section you will create a new SAML2 authentication module and an authent
 In this section you will test your configuration by logging in to the AM console as a user to view that user’s profile. 
 You will be redirected to the VZP IdP for a passwordless authentication using your mobile device and your biometrics.
 
-### Install and Onboard the VZP Mobile App
+### Install VZP Mobile and on-board 
 
 - Download the VZP mobile app from the Apple or Google Play App Store
 - Open the invitation sms sent by your Vouch contact, and click the link  
@@ -108,6 +108,9 @@ You will be redirected to the VZP IdP for a passwordless authentication using yo
 ![Splash](./images/Splash.png)
 ![FaceID](./images/FaceID.png)
 ![Notification](./images/Notification.png)
+
+**Note:** This flow above demonstrates the default onboarding process of the first user via an sms invitation. 
+Many other mechanisms including email and in-person endorsements are supported as well, please contact vouch for more info. 
 
 ### Perform passwordless login
 

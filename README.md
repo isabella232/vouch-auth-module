@@ -1,4 +1,5 @@
 ## Overview
+
 Vouch Zero Password is a blockchain-based identity solution that completely eliminates passwords.
 
 Vouch Zero Password utilizes a user’s smart device and biometrics to securely conduct Identity Creation, Verification, Authentication and Authorization.
@@ -98,13 +99,15 @@ In this section you will create a new SAML2 authentication module and an authent
 In this section you will test your configuration by logging in to the AM console as a user to view that user’s profile. 
 You will be redirected to the VZP IdP for a passwordless authentication using your mobile device and your biometrics.
 
-### Install the VZP Mobile App
+### Install and Onboard the VZP Mobile App
 
 - Download the VZP mobile app from the Apple or Google Play App Store
-- Open the invitation sms sent by your Vouch contact, and click the link
-![SMSInvite](./SMSInvite.png)
-- This opens the app, allow any requested permissions
-- Follow the prompts to complete enrollment
+- Open the invitation sms sent by your Vouch contact, and click the link  
+![SMSInvite](./images/SMSInvite.png)
+- This opens the app, allow any requested permissions  
+![Splash](./images/Splash.png)
+![FaceID](./images/FaceID.png)
+![Notification](./images/Notification.png)
 
 ### Perform passwordless login
 
@@ -112,7 +115,8 @@ You will be redirected to the VZP IdP for a passwordless authentication using yo
 - Login into the user’s profile using a URL that references the authentication chain with SAML2 module that you created above. 
 For example, http://openam.partner.com:8080/openam/XUI/#login/&service=VZPChain
 - If configured correctly, AM will redirect you to the VZP identity provider for authentication. You will be presented with a page similar to the below:
-- In the VZP app tap `SCAN QR`
+- In the VZP app tap `SCAN QR`  
+ ![Home](./images/Home.png)
 - Scan the QR code and then present your biometrics
 - AM should now give you access to the user’s profile page.
 

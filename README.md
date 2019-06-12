@@ -120,7 +120,7 @@ Many other mechanisms including email and in-person endorsements are supported a
 - Clear your browser's cache and cookies.
 - Login into the user’s profile using a URL that references the authentication chain with SAML2 module that you created above. 
 For example, http://openam.partner.com:8080/openam/XUI/#login/&service=VZPChain
-- If configured correctly, AM will redirect you to the VZP identity provider for authentication. You will be presented with a page similar to the below:  
+- If configured correctly, AM will redirect you to the VZP identity provider for authentication. You will be presented with a page similar to the one below:  
 ![QRLogin](./images/QRLogin.png)
 - In the VZP app tap `SCAN QR`  
  ![Home](./images/Home.png)

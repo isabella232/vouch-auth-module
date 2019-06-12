@@ -109,7 +109,7 @@ You will be redirected to the VZP IdP for a passwordless authentication using yo
 ![FaceID](./images/FaceID.png)
 ![Notification](./images/Notification.png)
 
-**Note:** This flow above demonstrates the default onboarding process of the first user via an sms invitation. 
+**Note:** The flow above demonstrates a default onboarding process of the first user via an sms invitation. 
 Many other mechanisms including email and in-person endorsements are supported as well, please contact vouch for more info. 
 
 ### Perform passwordless login

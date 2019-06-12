@@ -1,5 +1,7 @@
 ## Overview
 
+![Logo](./images/LogoVouchBlack.png)
+
 Vouch Zero Password is a blockchain-based identity solution that completely eliminates passwords.
 
 Vouch Zero Password utilizes a user’s smart device and biometrics to securely conduct Identity Creation, Verification, Authentication and Authorization.
@@ -104,13 +106,13 @@ You will be redirected to the VZP IdP for a passwordless authentication using yo
 - Download the VZP mobile app from the Apple or Google Play App Store
 - Open the invitation sms sent by your Vouch contact, and click the link  
 ![SMSInvite](./images/SMSInvite.png)
-- This opens the app, allow any requested permissions  
+- This opens the app, the user will then allow any requested permissions  
 ![Splash](./images/Splash.png)
 ![FaceID](./images/FaceID.png)
 ![Notification](./images/Notification.png)
 
 **Note:** The flow above demonstrates a default onboarding process of the first user via an sms invitation. 
-Many other mechanisms including email and in-person endorsements are supported as well, please contact vouch for more info. 
+Many other mechanisms including email and in-person endorsements are supported as well, please contact Vouch for more info. 
 
 ### Perform passwordless login
 

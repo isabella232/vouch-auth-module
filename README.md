@@ -1,6 +1,7 @@
-## Overview
 
 ![Logo](./images/LogoVouchBlack.png)
+
+## Overview
 
 Vouch Zero Password is a blockchain-based identity solution that completely eliminates passwords.
 

@@ -25,7 +25,7 @@ Please contact us at info@vouch.io to get started or for more information.
 - You are familiar with ForgeRock Federation concepts and have access to the AM SAML v2.0 Guide. 
 - You have engaged with Vouch, and received an email with a file named `vouch-idp-metadata.xml` as attachment
 
-## Enable AM / Vouch Federation
+## Enable AM-VZP Federation
 
 This section will guide you through the steps required for configuring AM with Vouch Zero Password (VZP)
 and trying it out for the first time.

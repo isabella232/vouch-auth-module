@@ -1,5 +1,5 @@
 
-![Logo](./images/LogoVouchBlack.png)
+![Logo](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/LogoVouchBlack.png)
 
 ## Overview
 
@@ -106,11 +106,11 @@ You will be redirected to the VZP IdP for a passwordless authentication using yo
 
 - Download the VZP mobile app from the Apple or Google Play App Store
 - Open the invitation sms sent by your Vouch contact, and click the link  
-![SMSInvite](./images/SMSInvite.png)
+![SMSInvite](https://raw.githubusercontent.com/ForgeRock/vouch-auth-module/vouch-io/images/SMSInvite.png)
 - This opens the app, the user will then allow any requested permissions  
-![Splash](./images/Splash.png)
-![FaceID](./images/FaceID.png)
-![Notification](./images/Notification.png)
+![Splash](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/QRLogin.png)
+![FaceID](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/FaceID.png)
+![Notification](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/Notification.png)
 
 **Note:** The flow above demonstrates a default onboarding process of the first user via an sms invitation. 
 Many other mechanisms including email and in-person endorsements are supported as well, please contact Vouch for more info. 
@@ -121,16 +121,16 @@ Many other mechanisms including email and in-person endorsements are supported a
 - Login into the user’s profile using a URL that references the authentication chain with SAML2 module that you created above. 
 For example, http://openam.partner.com:8080/openam/XUI/#login/&service=VZPChain
 - If configured correctly, AM will redirect you to the VZP identity provider for authentication. You will be presented with a page similar to the one below:  
-![QRLogin](./images/QRLogin.png)
+![QRLogin](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/QRLogin.png)
 - In the VZP app tap `SCAN QR`  
- ![Home](./images/Home.png)
+ ![Home](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/Home.png)
 - Scan the QR code and then present your biometrics
 - AM should now give you access to the user’s profile page.
 
 **Note**: The QR code is only used initially to bind the browser to the mobile device, 
 subsequent logins will send out a push notification, reducing user friction while preserving strong security.
 
-![PushLogin](./images/PushLogin.png)
+![PushLogin](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/PushLogin.png)
    
 
 ## What’s Next?

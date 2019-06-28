@@ -108,7 +108,7 @@ You will be redirected to the VZP IdP for a passwordless authentication using yo
 - Open the invitation sms sent by your Vouch contact, and click the link  
 ![SMSInvite](https://raw.githubusercontent.com/ForgeRock/vouch-auth-module/vouch-io/images/SMSInvite.png)
 - This opens the app, the user will then allow any requested permissions  
-![Splash](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/QRLogin.png)
+![Splash](https://github.com/ForgeRock/vouch-auth-module/blob/vouch-io/images/Splash.png)
 ![FaceID](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/FaceID.png)
 ![Notification](https://github.com/ForgeRock/vouch-auth-module/raw/vouch-io/images/Notification.png)
 
